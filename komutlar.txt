@@ -1,0 +1,30 @@
+*githubdaki dosyayı clonlamak için gerekli adımlamalar*:
+githubda projenin repo yolunu kopyala.(https://github.com/sevv007/gdg-web.git)
+masaüsütünde klasör oluştur ve powershell yada komut sistemini aç . "cd C:\Users\senin_adin\Desktop\klösörün isimi"
+"git clone https://github.com/sevv007/gdg-web.git" bunu yaz.
+
+
+*githubda değişikleri göndermek için adımlamalar*:
+Yaptığın değişikleri save yapmak için (CTRL+S)
+git add .
+git commit -m "değişikliği açıklama"
+git push origin feature/branchının isimi (githuba gidiyorsun hemen karşına geliyor bildiri ve orada merge yapıyorsun. )
+git checkout master(sonra mastra geçiyorsun.)
+git push origin --delete feature/branchının isimi(branchını siliyorsun.)
+git pull origin master (kodu günceliyorsun.)
+git checkout -b feature/branchının isimi(branch tekrardan oluşturuyorsun.)
+
+
+*proje içinde kurulması gereken paketler ve projeyi çalıştırma* :
+
+npm install lucide-react
+npm install react-router-dom
+
+
+*(tailwind css için gerekli ama projenin içinde yüklü olabilir , eğer yüklüyse bu komutlara gerek yoktur.)*
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
+
+
+*projeyi başlatma*
+npm run dev 
