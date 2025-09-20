@@ -1,4 +1,4 @@
-*githubdaki dosyayı clonlamak için gerekli adımlamalar*:
+*githubdaki dosyayı clone yapmak için gerekli adımlamalar*:
 githubda projenin repo yolunu kopyala.(https://github.com/sevv007/gdg-web.git)
 masaüsütünde klasör oluştur ve powershell yada komut sistemini aç . "cd C:\Users\senin_adin\Desktop\klösörün isimi"
 "git clone https://github.com/sevv007/gdg-web.git" bunu yaz.
@@ -28,3 +28,4 @@ npx tailwindcss init -p
 
 *projeyi başlatma*
 npm run dev 
+
