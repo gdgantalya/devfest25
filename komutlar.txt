@@ -5,11 +5,12 @@ masaüsütünde klasör oluştur ve powershell yada komut sistemini aç . "cd C:
 
 
 *githubda değişikleri göndermek için adımlamalar*:
+git checkout -b feature/branchının isimi
 Yaptığın değişikleri save yapmak için (CTRL+S)
 git add .
 git commit -m "değişikliği açıklama"
 git push origin feature/branchının isimi (githuba gidiyorsun hemen karşına geliyor bildiri ve orada merge yapıyorsun. )
-git checkout master(sonra mastra geçiyorsun.)
+git checkout master(sonra master geçiyorsun.)
 git push origin --delete feature/branchının isimi(branchını siliyorsun.)
 git pull origin master (kodu günceliyorsun.)
 git checkout -b feature/branchının isimi(branch tekrardan oluşturuyorsun.)
@@ -17,6 +18,7 @@ git checkout -b feature/branchının isimi(branch tekrardan oluşturuyorsun.)
 
 *proje içinde kurulması gereken paketler ve projeyi çalıştırma* :
 
+npm install
 npm install lucide-react
 npm install react-router-dom
 
@@ -28,4 +30,5 @@ npx tailwindcss init -p
 
 *projeyi başlatma*
 npm run dev 
+
 
