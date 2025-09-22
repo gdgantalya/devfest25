@@ -29,8 +29,8 @@ const team = [
 
 export default function Team() {
     return (
-        <div className="p-8">
-            <h1 className="text-3xl font-bold mb-6 text-center">Team</h1>
+        <div className="p-8 pt-24 min-h-[80vh]">
+            <h1 className="text-3xl font-serif mb-6 text-center text-purple-400">Organizers</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {team.map((member, index) => (
                     <TeamMemberCard key={index} {...member} />

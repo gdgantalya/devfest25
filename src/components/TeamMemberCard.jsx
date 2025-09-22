@@ -1,6 +1,6 @@
 export default function TeamMemberCard({ name, role, img, desc }) {
     return (
-        <div className="bg-white shadow-lg rounded-lg p-4 text-center hover:shadow-xl transition">
+        <div className="bg-white/50 shadow-lg rounded-3xl p-4 text-center hover:shadow-xl transition">
             <img
                 src={img}
                 alt={name}

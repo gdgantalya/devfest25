@@ -31,7 +31,7 @@ const Home = () => {
                     <div className="flex flex-col items-center gap-3 text-grey mt-6">
                         <div className="flex items-center gap-2">
                             <CalendarDays className="text-black" size={22} />
-                            <span>09.12.2025</span>
+                            <span>06.12.2025</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <MapPin className="text-black" size={22} />
@@ -56,7 +56,7 @@ const Home = () => {
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                     {/* Yazı kısmı */}
                     <div className="text-center md:text-left">
-                        <h2 className="text-3xl font-bold mb-6">About</h2>
+                        <h2 className="text-3xl font-serif mb-6">About</h2>
                         <p className="text-lg text-gray-700">
                             This event is an organization that brings together technology and innovation,
                             uniting leading experts in the sector and young talents.
@@ -76,13 +76,13 @@ const Home = () => {
 
             {/* Sponsorlar Slider */}
             <section id="sponsors" className="py-20 bg-white">
-                <h2 className="text-3xl font-bold text-center mb-10">Our Sponsors</h2>
+                <h2 className="text-3xl font-serif text-center mb-10">Our Sponsors</h2>
                 <SponsorsSlider />
             </section>
 
             {/* Harita Section */}
             <section id="location" className="py-20 bg-gray-100 text-center">
-                <h2 className="text-3xl font-bold mb-6">Location</h2>
+                <h2 className="text-3xl font-serif mb-6">Location</h2>
                 <div className="flex justify-center">
                     <iframe
                         title="map"

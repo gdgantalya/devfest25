@@ -29,8 +29,8 @@ const team = [
 
 export default function Speakers() {
     return (
-        <div className="p-8">
-            <h1 className="text-3xl font-bold mb-6 text-center">Speakers</h1>
+        <div className="p-8 pt-24 min-h-[80vh]">
+            <h1 className="text-3xl font-serif mb-6 text-center text-yellow-600">Speakers</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {team.map((member, index) => (
                     <TeamMemberCard key={index} {...member} />
