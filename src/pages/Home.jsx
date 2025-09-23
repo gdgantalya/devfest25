@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import SponsorsSlider from "../components/SponsorsSlider";
-import { ChevronDown, CalendarDays, MapPin } from "lucide-react";
+import { ChevronDown, CalendarDays, MapPin, ArrowUpRight } from "lucide-react";
 import gdgLogo from "../assets/gdgLogo.png";
 import gdgAbout from "../assets/gdg_antalya_cover.jpg";
 const Home = () => {
@@ -37,6 +38,23 @@ const Home = () => {
                             <MapPin className="text-black" size={22} />
                             <span>Antalya</span>
                         </div>
+                    </div>
+                    <div className="flex justify-center gap-6 pt-5">
+                        <a
+                            href=""
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button className=" flex items-center justify-center gap-2 bg-black shadow-xl transition text-white border-2 px-9 py-4 rounded-3xl hover:bg-blue-400">
+                                <span>Get ticket</span>
+                                <ArrowUpRight size={25} />
+                            </button>
+                        </a>
+                        <Link to="/speakers">
+                            <button className="bg-black shadow-xl transition text-white border-2 px-6 py-4 rounded-3xl hover:bg-blue-400">
+                                View Speakers
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 <a
