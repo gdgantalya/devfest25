@@ -10,7 +10,7 @@ const Home = () => {
             {/* Hero Section */}
             <section
                 id="top"
-                className="text-grey h-[70vh] flex flex-col justify-center items-center text-center px-6 relative overflow-hidden"
+                className="text-grey h-[90vh] flex flex-col justify-center items-center text-center px-6 relative overflow-hidden"
                 style={{
                     backgroundImage: `url('/photo.png')`,
                     backgroundSize: 'cover',
@@ -39,7 +39,7 @@ const Home = () => {
                             <span>Antalya</span>
                         </div>
                     </div>
-                    <div className="flex justify-center gap-6 pt-5">
+                    <div className="flex flex-col items-center sm:flex-row justify-center gap-4 sm:gap-6 pt-5">
                         <a
                             href=""
                             target="_blank"
@@ -59,7 +59,7 @@ const Home = () => {
                 </div>
                 <a
                     href="#about"
-                    className="absolute bottom-0 left-1/2 -translate-x-1/2 w-12 h-12 
+                    className="absolute bottom-5 left-1/2 -translate-x-1/2 w-12 h-12 
               text-white rounded-full 
              flex items-center justify-center 
              hover:bg-white/20 transition duration-300 z-10"
