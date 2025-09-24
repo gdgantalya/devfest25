@@ -4,7 +4,12 @@ import footerBg from "../assets/footerBg.png";
 export default function Footer() {
     return (
         <footer
-            style={{ backgroundImage: `url(${footerBg})` }}
+            style={{
+                backgroundImage: `url(${footerBg})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                minHeight: "250px",
+            }}
             className="bg-yellow-500/80 bg-no-repeat text-black-300 py-32 mt-19">
             <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
 
