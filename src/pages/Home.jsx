@@ -20,7 +20,7 @@ const Home = () => {
             >
                 <div className="absolute inset-0 bg-black/40"></div> {/* Opaklık ayarı */}
 
-                <div className="relative z-10 bg-white/20 backdrop-blur-md border-4 border-white/40 rounded-2xl p-8 w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-4xl mx-auto">
+                <div className="relative z-10 bg-white/20 backdrop-blur-md border-4 border-white/40 rounded-2xl p-6 w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-4xl mx-auto mt-12">
                     <img
                         src={gdgLogo}
                         alt="GDG Antalya Logo"
@@ -59,7 +59,7 @@ const Home = () => {
                 </div>
                 <a
                     href="#about"
-                    className="absolute bottom-6 left-1/2 -translate-x-1/2 w-12 h-12 
+                    className="absolute bottom-0 left-1/2 -translate-x-1/2 w-12 h-12 
               text-white rounded-full 
              flex items-center justify-center 
              hover:bg-white/20 transition duration-300 z-10"
