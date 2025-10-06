@@ -17,6 +17,15 @@ export default function Navbar() {
             </div>
             <ul className="hidden md:flex gap-6">
                 <li><Link to="/" className="hover:text-black hover:border-1 hover:border-black/40 p-2 rounded-3xl hover:bg-white transition-colors duration-300" >Home</Link></li>
+                <li><a
+                    href="/DevFest2025.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-black hover:border-1 hover:border-black/40 p-2 rounded-3xl hover:bg-green-200/50 transition-colors duration-300"
+                >
+                    DevFest 2025
+                </a>
+                </li>
                 <li><Link to="/contact" className="hover:text-black hover:border-1 hover:border-black/40 p-2 rounded-3xl hover:bg-pink-200/50 transition-colors duration-300">Contact</Link></li>
                 <li><Link to="/calendar" className="hover:text-black hover:border-1 hover:border-black/40 p-2 rounded-3xl hover:bg-blue-200/50 transition-colors duration-300">Schedule</Link></li>
                 <li><Link to="/speakers" className="hover:text-black hover:border-1 hover:border-black/40 p-2 rounded-3xl hover:bg-yellow-200/50 transition-colors duration-300">Speakers</Link></li>
@@ -41,6 +50,15 @@ export default function Navbar() {
                             <Link to="/" className="hover:text-black hover:border-2 hover:border-black/40 p-2 rounded-3xl hover:bg-white transition-colors duration-300" onClick={() => setIsOpen(false)}>
                                 Home
                             </Link>
+                        </li>
+                        <li><a
+                            href="/DevFest2025.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-black hover:border-1 hover:border-black/40 p-2 rounded-3xl hover:bg-green-200/50 transition-colors duration-300"
+                        >
+                            DevFest 2025
+                        </a>
                         </li>
                         <li>
                             <Link to="/contact" className="hover:text-black hover:border-2 hover:border-black/40 p-2 rounded-3xl hover:bg-pink-200/50 transition-colors duration-300" onClick={() => setIsOpen(false)}>

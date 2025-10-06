@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SponsorsSlider from "../components/SponsorsSlider";
+import CountdownTimer from "../components/CountdownTimer"
 import { ChevronDown, CalendarDays, MapPin, ArrowUpRight } from "lucide-react";
 import gdgLogo from "../assets/gdgLogo.png";
 import gdgAbout from "../assets/gdg_antalya_cover.jpg";
@@ -39,6 +40,7 @@ const Home = () => {
                             <span>Antalya</span>
                         </div>
                     </div>
+
                     <div className="flex flex-col items-center sm:flex-row justify-center gap-4 sm:gap-6 pt-5">
                         <a
                             href=""
@@ -57,6 +59,7 @@ const Home = () => {
                         </Link>
                     </div>
                 </div>
+
                 <a
                     href="#about"
                     className="absolute bottom-5 left-1/2 -translate-x-1/2 w-12 h-12 
@@ -67,7 +70,9 @@ const Home = () => {
                     <ChevronDown size={28} className="animate-slow-bounce" />
                 </a>
             </section>
-
+            <section>
+                <CountdownTimer /> {/*geri sayım */}
+            </section>
 
             {/* Hakkımızda Section */}
             <section id="about" className="py-20 bg-gray-100 text-center px-6">
@@ -76,8 +81,22 @@ const Home = () => {
                     <div className="text-center md:text-left">
                         <h2 className="text-3xl font-serif mb-6">About</h2>
                         <p className="text-lg text-gray-700">
-                            This event is an organization that brings together technology and innovation,
-                            uniting leading experts in the sector and young talents.
+                            Google Developer Group is an open and volunteer software developer community that creates exciting projects,
+                            organizes events, and passionately shares experiences about Google technologies.
+                        </p>
+                        <p className="text-lg text-gray-700 mt-4">
+                            GDGs, which have been running worldwide for 11 years, currently have over 500,000 members in more than 120 countries.
+                        </p>
+                        <p className="text-lg text-gray-700 mt-4">
+                            As GDG Antalya, our goal is to bring together technology enthusiasts in Antalya through events related to current technologies,
+                            create an ecosystem, and support Antalya's software developers, knowledge, and
+                            skills.
+                        </p>
+                        <p className="text-lg text-gray-700 mt-4">
+                            As GDG Antalya, our goal is to bring together technology enthusiasts in Antalya through events related to current technologies,
+                            create an ecosystem, and reveal Antalya's potential in software development, information, and
+                            technology. Another goal is to
+                            encourage and support individuals, events, and companies interested in technology.
                         </p>
                     </div>
 
