@@ -30,7 +30,7 @@ const OurSponsors = () => {
               </p>
             </div>
             <a
-              href="https://drive.google.com/file/d/11f8zdyoxljJ4TYRcHBDMfYtLqFkQDl_0/view"
+              href="https://forms.gle/fp8LpFsuFE8rn8Re8"
               target="_blank"
               rel="noopener noreferrer"
             >

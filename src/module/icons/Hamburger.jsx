@@ -1,5 +1,5 @@
 export const Hamburger = ({ color }) => (
-  <svg viewBox="0 0 24 24" fill="none">
+  <svg viewBox="0 0 24 24" fill="none" width="24" height="24">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
