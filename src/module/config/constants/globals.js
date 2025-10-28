@@ -1,14 +1,14 @@
 export const menuItems = [
-  { label: "Program", slur: "schedule" },
   { label: "Konuşmacılar", slur: "speakers" },
   { label: "Sponsorlar", slur: "sponsors" },
+  { label: "Program", slur: "agenda" },
 ];
 
 export const footerItems = {
   frameOne: [
-    { label: "Program", slur: "schedule" },
     { label: "Konuşmacılar", slur: "speakers" },
     { label: "Sponsorlar", slur: "sponsors" },
+    { label: "Program", slur: "agenda" },
   ],
   frameTwo: [
     // { label: 'Apply to be a Volunteer', slur: 'apply-to-be-a-volunteer' },

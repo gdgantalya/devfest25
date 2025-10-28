@@ -43,20 +43,24 @@ const DevfestHero = () => {
               ol. Teknoloji meraklılarının bir araya geldiği, son teknolojileri
               keşfettiği ve geleceği şekillendirdiği etkinliğe katıl
             </p>
-            <p className="text-center font-bold">6 Aralık 2025, Cumartesi</p>
-            <div className="flex flex-col md:flex-row gap-3 md:gap-5 text-sm'">
+            <p className="text-center font-bold text-xl md:text-3xl">
+              6 Aralık 2025, Cumartesi
+            </p>
+            <p className="text-center font-medium text-[#4D4D4D] text-lg md:text-2xl">
+              Akdeniz Üniversitesi Atatürk Konferans Salonu
+            </p>
+            <div className="flex flex-col md:flex-row gap-3 md:gap-5 text-sm  items-center">
               <a
                 href="https://kommunity.com/gdg-antalya/events/devfest25-antalya-badb022e"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-black py-4 px-52 text-white hover:bg-core-blue hover:text-white rounded-[100px] flex"
+                className="bg-black py-4 px-52 text-lg text-white hover:bg-core-blue hover:text-white rounded-[100px] flex items-center"
               >
                 Bilet Al <ArrowUpRight />
               </a>
-
               <a
                 href="#speakers"
-                className="bg-white py-4 px-52 border-[1px] border-black hover:border-core-blue text-black hover:bg-core-blue hover:text-white rounded-[100px]"
+                className="bg-white py-4 px-52 text-lg border-[1px] border-black hover:border-core-blue text-black hover:bg-core-blue hover:text-white rounded-[100px]"
               >
                 Konuşmacıları Gör
               </a>
