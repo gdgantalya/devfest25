@@ -40,9 +40,9 @@ const Home = () => {
         <OurSpeakers />
       </div>
 
-      {/* <div id="agenda">
+      <div id="agenda">
         <Agenda />
-      </div> */}
+      </div>
 
       <div id="sponsors">
         <OurSponsors />

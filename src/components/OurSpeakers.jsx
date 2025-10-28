@@ -6,7 +6,7 @@ import SpeakerCard from "../module/cards/SpeakerCard";
 import IconsArt from "./IconsArt";
 
 const OurSpeakers = () => {
-  const Speakers = SpeakersList.slice(0, 4);
+  const Speakers = SpeakersList.slice(0, 8);
   return (
     <>
       <div className="bg-[#fcfcfc] w-full">
@@ -15,15 +15,15 @@ const OurSpeakers = () => {
             <h1 className="text-2xl md:text-6xl font-bold">
               Harika Konuşmacılarımızı Tanıyın
             </h1>
-            {/* <section className="grid grid-cols-1 md:grid-cols-4 gap-24">
+            <section className="grid grid-cols-1 md:grid-cols-4 gap-24">
               {Speakers.map((data, idx) => (
                 <Fragment key={idx}>
                   <SpeakerCard {...data} />
                 </Fragment>
               ))}
-            </section> */}
+            </section>
 
-            <section className="flex gap-5 flex-col items-center py-24">
+            {/* <section className="flex gap-5 flex-col items-center py-24">
               <h1 className="text-5xl font-bold text-center">
                 Konuşmacılar Yakında Gelecek
               </h1>
@@ -33,7 +33,7 @@ const OurSpeakers = () => {
                 verdiği ve DevFest deneyiminizi dönüştürdüğü anı beklemeye
                 hazırlanın.
               </p>
-            </section>
+            </section> */}
           </div>
         </div>
         <IconsArt className="flex flex-col -mt-64 md:-mt-[150px]" />

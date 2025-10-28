@@ -34,62 +34,79 @@ export default function Agenda() {
 
   const agendaItems = [
     {
-      activity: "Kayıtlar ve Giriş",
-      time: "8:30 - 9:00",
-      title: ["Kayıtlar ve giriş"],
-      details: ["Hall Gemini"],
+      activity: "Açılış",
+      time: "09:00 - 09:30",
+      title: ["Açılış"],
+      details: ["Ana Salon"],
     },
     {
-      activity: "Açılış Konuşması",
-      time: "9:00 - 9:15",
-      title: ["Açılış Konuşması"],
-      details: ["Hall Gemini"],
+      activity: "Konuşma 1",
+      time: "09:30 - 10:00",
+      title: ["Konuşma 1"],
+      details: ["Ana Salon"],
     },
     {
-      activity:
-        "Konuşmacı Oturumu 1 - Raheem Nasirudeen (Sorumlu AI Prensipleri, Neden, Ne ve Nasıl?)",
-      time: "9:20 - 9:45",
-      title: [
-        "Raheem Nasirudeen - (Sorumlu AI Prensipleri, Neden, Ne ve Nasıl?)",
-      ],
-      details: ["Hall Gemini"],
+      activity: "Konuşma 2",
+      time: "10:15 - 10:45",
+      title: ["Konuşma 2"],
+      details: ["Ana Salon"],
     },
     {
-      activity:
-        "Konuşmacı Oturumu 2 - Feranmi Olowoyo (Topluluk Geliştiriciler Kariyerine Nasıl Etki Eder?)",
-      time: "9:50 - 10:15",
-      title: [
-        "Feranmi Olowoyo - (Topluluk Geliştiriciler Kariyerine Nasıl Etki Eder?)",
-      ],
-      details: ["Hall Gemini"],
+      activity: "Konuşma 3",
+      time: "11:00 - 11:30",
+      title: ["Konuşma 3"],
+      details: ["Ana Salon"],
     },
     {
-      activity: "Ana Konuşma - Seye Bandele, CEO, PaidHR",
-      time: "10:20 - 10:50",
-      title: ["Ana Konuşma - Seye Bandele, CEO, PaidHR"],
-      details: ["Hall Gemini"],
+      activity: "Konuşma 4",
+      time: "11:45 - 12:15",
+      title: ["Konuşma 4"],
+      details: ["Ana Salon"],
     },
     {
-      activity: "Ürün Demosu (Sponsorlar)",
-      time: "10:50 - 11:00",
-      title: ["Ürün Demosu (Sponsorlar)"],
-      details: ["Hall Gemini"],
+      activity: "Öğle Arası",
+      time: "12:15 - 12:55",
+      title: ["Öğle Arası"],
+      details: ["Ana Salon"],
     },
     {
-      activity: "Ağ Oluşturma",
-      time: "11:00 - 11:20",
-      title: ["Ağ Oluşturma"],
-      details: ["Hall Gemini"],
+      activity: "Konuşma 5",
+      time: "12:55 - 13:25",
+      title: ["Konuşma 5"],
+      details: ["Ana Salon"],
+    },
+    {
+      activity: "Konuşma 6",
+      time: "13:40 - 14:10",
+      title: ["Konuşma 6"],
+      details: ["Ana Salon"],
+    },
+    {
+      activity: "Konuşma 7",
+      time: "14:25 - 14:55",
+      title: ["Konuşma 7"],
+      details: ["Ana Salon"],
+    },
+    {
+      activity: "Konuşma 8",
+      time: "15:10 - 15:40",
+      title: ["Konuşma 8"],
+      details: ["Ana Salon"],
+    },
+    {
+      activity: "Konuşma 9",
+      time: "15:55 - 16:25",
+      title: ["Konuşma 9"],
+      details: ["Ana Salon"],
     },
   ];
 
   return (
     <>
-      {" "}
       <div className={Styles.container}>
         <main className={Styles.main}>
           <header className={Styles.header}>
-            <h2 className={Styles.headerHeading}>Vaad Edilen Program</h2>
+            <h2 className={Styles.headerHeading}>Program</h2>
             <section className={Styles.dateContainer}>
               <Calendar />
               <p className={Styles.date}>

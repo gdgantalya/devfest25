@@ -2,15 +2,10 @@ import { speakersCardClass as Styles } from "./speaker-card";
 import clsx from "clsx";
 
 const SpeakerCard = (props) => {
-  const { name, src, title, handleClick } = props;
+  const { name, src, title } = props;
 
   return (
-    <div
-      className={Styles.wrapper}
-      onClick={() => {
-        handleClick && handleClick(props);
-      }}
-    >
+    <div className={Styles.wrapper}>
       <section className={Styles.section}>
         <img alt={`${name}-${title}`} src={src} className={Styles.img} />
       </section>
