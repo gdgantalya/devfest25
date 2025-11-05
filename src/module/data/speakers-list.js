@@ -30,7 +30,7 @@ export const SpeakersList = [
   {
     name: "Gizem Malçok",
     title: "Founder, Senior Flutter Developer - Freesia AI",
-    src: "https://media.licdn.com/dms/image/v2/D4D03AQHjO1e0ecKflw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1684840421935?e=1762992000&v=beta&t=hDbn8xl-VXCovo4jerpVyMZJg_85CilkgwXLkSYIpnM",
+    src: "https://media.licdn.com/dms/image/v2/D4D03AQFVvZW8vossKA/profile-displayphoto-crop_800_800/B4DZovcdXbH4AI-/0/1761732581764?e=1764201600&v=beta&t=jHizQAZsQHX4GPAfsX3GZB3YBiJVn938EmFrkF_553w",
     linkedin: "https://www.linkedin.com/in/gizemmalcok",
     x: "@gizemmalcok",
   },
