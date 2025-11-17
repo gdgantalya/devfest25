@@ -1,5 +1,12 @@
 import { ArrowUpRight } from "lucide-react";
 import google from "../assets/sponsors/google.webp";
+import club from "../assets/sponsors/100sclub.png";
+import BlsmProfesyoneller from "../assets/sponsors/logo1.png";
+import dceros from "../assets/sponsors/logo2.png";
+import raghubs from "../assets/sponsors/logo3.png";
+import jraf from "../assets/sponsors/logo4.png";
+import techcareer from "../assets/sponsors/logo5.jpeg";
+import workc from "../assets/sponsors/logo6.png";
 import { Button } from "../module/components/ui/button";
 import { cn } from "../module/lib/utils";
 
@@ -41,37 +48,38 @@ const OurSponsors = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-24 overflow-hidden">
             <SponsorImage
-              imageSrc={google}
+              imageSrc={club}
               alt="Google"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
-              imageSrc={google}
+              imageSrc={BlsmProfesyoneller}
               alt="Codemagic"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
-              imageSrc={google}
+              imageSrc={dceros}
               alt="Ton Society"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
-              imageSrc={google}
+              imageSrc={raghubs}
               alt="Interswitch"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
-              imageSrc={google}
+              imageSrc={jraf}
               alt="Github Campus"
+              imgClassName="w-[150px] md:w-[250px]"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
-              imageSrc={google}
+              imageSrc={techcareer}
               alt="Lorry Project"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
-              imageSrc={google}
+              imageSrc={workc}
               alt="OneApp"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
