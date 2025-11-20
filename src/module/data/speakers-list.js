@@ -8,6 +8,12 @@ import photo7 from "../../assets/speakers/photo_7.jpg";
 import photo8 from "../../assets/speakers/photo_8.jpg";
 export const SpeakersList = [
   {
+    name: "Rümeysa Kara",
+    title: "Data Scientist, Google Developer Expert for AI/ML - Yepaş",
+    src: photo3,
+    x: "@rumeysakara",
+  },
+  {
     name: "Ugur Umutluoğlu",
     title: "Founder - Talentops",
     src: photo7,
@@ -21,11 +27,11 @@ export const SpeakersList = [
     x: "@alperhankendi",
   },
   {
-    name: "Evren Tan",
-    title: "Senior Software Development Manager - Sahibinden",
-    src: photo6,
-    linkedin: "https://www.linkedin.com/in/evren-tan/",
-    x: "@evrentan",
+    name: "Halil İbrahim Yıldırım",
+    title: "Head of Data - TOM",
+    src: photo4,
+    linkedin: "https://www.linkedin.com/in/halilibrahimyildirim/",
+    x: "@halilibrahimyildirim",
   },
   {
     name: "Emre Savcı",
@@ -35,13 +41,6 @@ export const SpeakersList = [
     x: "@emresavci",
   },
   {
-    name: "Gizem Malçok",
-    title: "Founder, Senior Flutter Developer - Freesia AI",
-    src: photo8,
-    linkedin: "https://www.linkedin.com/in/gizemmalcok",
-    x: "@gizemmalcok",
-  },
-  {
     name: "Semih Kışlar",
     title: "Tech Culture & AI Enablement Manager - Teknasyon",
     src: photo2,
@@ -49,16 +48,17 @@ export const SpeakersList = [
     x: "@semihkislar",
   },
   {
-    name: "Rümeysa Kara",
-    title: "Data Scientist, Google Developer Expert for AI/ML - Yepaş",
-    src: photo3,
-    x: "@rumeysakara",
+    name: "Evren Tan",
+    title: "Senior Software Development Manager - Sahibinden",
+    src: photo6,
+    linkedin: "https://www.linkedin.com/in/evren-tan/",
+    x: "@evrentan",
   },
   {
-    name: "Halil İbrahim Yıldırım",
-    title: "Head of Data",
-    src: photo4,
-    linkedin: "https://www.linkedin.com/in/halilibrahimyildirim/",
-    x: "@halilibrahimyildirim",
+    name: "Gizem Malçok",
+    title: "Founder, Senior Flutter Developer - Freesia AI",
+    src: photo8,
+    linkedin: "https://www.linkedin.com/in/gizemmalcok",
+    x: "@gizemmalcok",
   },
 ];
