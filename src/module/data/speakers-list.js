@@ -1,57 +1,63 @@
+import photo1 from "../../assets/speakers/photo_1.jpg";
+import photo2 from "../../assets/speakers/photo_2.jpg";
+import photo3 from "../../assets/speakers/photo_3.jpg";
+import photo4 from "../../assets/speakers/photo_4.jpg";
+import photo5 from "../../assets/speakers/photo_5.jpg";
+import photo6 from "../../assets/speakers/photo_6.jpg";
+import photo7 from "../../assets/speakers/photo_7.jpg";
+import photo8 from "../../assets/speakers/photo_8.jpg";
 export const SpeakersList = [
   {
     name: "Ugur Umutluoğlu",
     title: "Founder - Talentops",
-    src: "https://media.licdn.com/dms/image/v2/D4D03AQGQ5bdvkcHTrg/profile-displayphoto-crop_800_800/B4DZnb.HoSH4AI-/0/1760332122739?e=1762992000&v=beta&t=L64jet-B83cM6nHHCyd2ztyUYrQ3G88QVwuYjHMW9f4",
+    src: photo7,
     linkedin: "https://www.linkedin.com/in/ugurumutluoglu/",
     x: "@ugurumutluoglu",
   },
   {
     name: "Alper Hankendi",
     title: "Head of Technology - Hepsiburada",
-    src: "https://media.licdn.com/dms/image/v2/C4D03AQG16gIMq5hvyQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1604091672763?e=1762992000&v=beta&t=Yhm4FUAYhlEgTOkuSu3K505hNyWRcmv-JF16M-UeqcY",
-    linkedin: "https://www.linkedin.com/in/alperhankendi/",
+    src: photo1,
     x: "@alperhankendi",
   },
   {
     name: "Evren Tan",
     title: "Senior Software Development Manager - Sahibinden",
-    src: "https://media.licdn.com/dms/image/v2/D4D03AQFEYVNVzfgRWg/profile-displayphoto-crop_800_800/B4DZnprxoFGgAI-/0/1760562191442?e=1762992000&v=beta&t=ZgFnL8aCpkARrVhIESEBSM5iWY4GAFoQUvgLxZf2N-s",
+    src: photo6,
     linkedin: "https://www.linkedin.com/in/evren-tan/",
     x: "@evrentan",
   },
   {
     name: "Emre Savcı",
     title: "Tech Lead / Staff Engineer - Trendyol Group",
-    src: "https://media.licdn.com/dms/image/v2/C4D03AQGRfMI41oHMqQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1654171045599?e=1762992000&v=beta&t=f7OOUn_KvKawmyvoqDkXFQiY1o9D7LSQLdsxLIty0ew",
+    src: photo5,
     linkedin: "https://www.linkedin.com/in/emre-savc%C4%B1-70a849a6/",
     x: "@emresavci",
   },
   {
     name: "Gizem Malçok",
     title: "Founder, Senior Flutter Developer - Freesia AI",
-    src: "https://media.licdn.com/dms/image/v2/D4D03AQFVvZW8vossKA/profile-displayphoto-crop_800_800/B4DZovcdXbH4AI-/0/1761732581764?e=1764201600&v=beta&t=jHizQAZsQHX4GPAfsX3GZB3YBiJVn938EmFrkF_553w",
+    src: photo8,
     linkedin: "https://www.linkedin.com/in/gizemmalcok",
     x: "@gizemmalcok",
   },
   {
     name: "Semih Kışlar",
     title: "Tech Culture & AI Enablement Manager - Teknasyon",
-    src: "https://media.licdn.com/dms/image/v2/D4D03AQHrW9auqybTUw/profile-displayphoto-shrink_800_800/B4DZaBjHecG0Ak-/0/1745930191382?e=1762992000&v=beta&t=esgu-435EDCavx6MnPLR_10uvNeHIIdshqvJn8IcsPw",
+    src: photo2,
     linkedin: "https://www.linkedin.com/in/semihkislar/",
     x: "@semihkislar",
   },
   {
     name: "Rümeysa Kara",
     title: "Data Scientist, Google Developer Expert for AI/ML - Yepaş",
-    src: "https://media.licdn.com/dms/image/v2/D4D03AQH8fRpJFtTSeg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1676408034191?e=1762992000&v=beta&t=0Idx49eHn4jczoneEoOMyuRrIn5Z_-kWMiWAlcy3cMo",
-    linkedin: "https://www.linkedin.com/in/rumeysakara/",
+    src: photo3,
     x: "@rumeysakara",
   },
   {
     name: "Halil İbrahim Yıldırım",
     title: "Head of Data",
-    src: "https://media.licdn.com/dms/image/v2/D4D03AQExSb6awSJy0w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1668967782684?e=1762992000&v=beta&t=_io_Xv1a8W8aRHSf-Jc-uFhKAz8sJTKKUM0VBN-gIaY",
+    src: photo4,
     linkedin: "https://www.linkedin.com/in/halilibrahimyildirim/",
     x: "@halilibrahimyildirim",
   },
