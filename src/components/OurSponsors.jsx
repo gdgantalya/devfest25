@@ -7,6 +7,19 @@ import raghubs from "../assets/sponsors/logo3.png";
 import jraf from "../assets/sponsors/logo4.png";
 import techcareer from "../assets/sponsors/logo5.jpeg";
 import workc from "../assets/sponsors/logo6.png";
+import youthall from "../assets/sponsors/logo7.png";
+import uzmanBlgtekno from "../assets/sponsors/logo8.jpeg";
+import epam from "../assets/sponsors/logo9.jpeg";
+import bgaBlsm from "../assets/sponsors/logo10.jpeg";
+import talya from "../assets/sponsors/logo_1.png";
+import renk from "../assets/sponsors/logo_2.png";
+import tornet from "../assets/sponsors/logo_3.jpeg";
+import kafagenc from "../assets/sponsors/logo_4.png";
+import gez from "../assets/sponsors/logo_5.jpg";
+import gam from "../assets/sponsors/logo_6.jpeg";
+import pacadem from "../assets/sponsors/logo_7.png";
+import bnbn from "../assets/sponsors/logo_8.png";
+import log from "../assets/sponsors/logo11.png";
 import { Button } from "../module/components/ui/button";
 import { cn } from "../module/lib/utils";
 
@@ -83,6 +96,36 @@ const OurSponsors = () => {
               alt="OneApp"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
+            <SponsorImage
+              imageSrc={youthall}
+              alt="OneApp"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={uzmanBlgtekno}
+              alt="OneApp"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={epam}
+              alt="OneApp"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={bgaBlsm}
+              alt="OneApp"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={log}
+              alt="OneApp"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={google}
+              alt="OneApp"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
           </div>
 
           <div className="">
@@ -92,38 +135,68 @@ const OurSponsors = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-24 overflow-hidden">
               <SponsorImage
-                imageSrc={google}
+                imageSrc={talya}
                 alt="Turing"
                 divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
               />
               <SponsorImage
-                imageSrc={google}
+                imageSrc={renk}
                 alt="AltSchool"
                 divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
               />
               <SponsorImage
-                imageSrc={google}
+                imageSrc={tornet}
                 alt="Cardify"
                 divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
               />
               <SponsorImage
-                imageSrc={google}
+                imageSrc={kafagenc}
                 alt="DigitalOcean"
                 divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
               />
               <SponsorImage
-                imageSrc={google}
+                imageSrc={epam}
                 alt="YouVerify"
                 divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
               />
               <SponsorImage
-                imageSrc={google}
+                imageSrc={BlsmProfesyoneller}
                 alt="Heyfood"
                 divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
               />
               <SponsorImage
-                imageSrc={google}
+                imageSrc={dceros}
                 alt="Ship"
+                divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+              />
+              <SponsorImage
+                imageSrc={gez}
+                alt="Halal"
+                divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+              />
+              <SponsorImage
+                imageSrc={gam}
+                alt="Halal"
+                divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+              />
+              <SponsorImage
+                imageSrc={techcareer}
+                alt="Halal"
+                divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+              />
+              <SponsorImage
+                imageSrc={youthall}
+                alt="Halal"
+                divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+              />
+              <SponsorImage
+                imageSrc={pacadem}
+                alt="Halal"
+                divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+              />
+              <SponsorImage
+                imageSrc={bnbn}
+                alt="Halal"
                 divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
               />
               <SponsorImage
