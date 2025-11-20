@@ -50,7 +50,7 @@ export const SpeakersList = [
   },
   {
     name: "Halil İbrahim Yıldırım",
-    title: "Head of Data - TOM",
+    title: "Head of Data",
     src: "https://media.licdn.com/dms/image/v2/D4D03AQExSb6awSJy0w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1668967782684?e=1762992000&v=beta&t=_io_Xv1a8W8aRHSf-Jc-uFhKAz8sJTKKUM0VBN-gIaY",
     linkedin: "https://www.linkedin.com/in/halilibrahimyildirim/",
     x: "@halilibrahimyildirim",
