@@ -56,7 +56,7 @@ export const SpeakersList = [
   },
   {
     name: "Halil İbrahim Yıldırım",
-    title: "Head of Data - TOM",
+    title: "Head of Data",
     src: photo4,
     linkedin: "https://www.linkedin.com/in/halilibrahimyildirim/",
     x: "@halilibrahimyildirim",
