@@ -40,27 +40,49 @@ export default function Agenda() {
       details: ["Ana Salon"],
     },
     {
-      activity: "Konuşma 1",
+      activity: "Integrating Gemma into RAG Pipelines",
       time: "09:30 - 10:00",
-      title: ["Konuşma 1"],
+      title: ["Rümeysa Kara"],
+      subtitle: ["Data Scientist, Google Developer Expert for AI/ML, Yepaş"],
       details: ["Ana Salon"],
     },
     {
-      activity: "Konuşma 2",
+      activity: "Ara",
+      time: "10:00 - 10:15",
+      title: ["Ara"],
+      details: ["Ana Salon"],
+    },
+    {
+      activity: "Junior 2.0: Yapay Zekâ Çağında Yeni Mezun Yazılımcı Olmak",
       time: "10:15 - 10:45",
-      title: ["Konuşma 2"],
+      title: ["Ugur Umutluoğlu"],
+      subtitle: ["Founder, Talentops"],
       details: ["Ana Salon"],
     },
     {
-      activity: "Konuşma 3",
+      activity: "Ara",
+      time: "10:45 - 11:00",
+      title: ["Ara"],
+      details: ["Ana Salon"],
+    },
+    {
+      activity: "Why Great Engineers Still Build Fragile Systems",
       time: "11:00 - 11:30",
-      title: ["Konuşma 3"],
+      title: ["Alper Hankendi"],
+      subtitle: ["Head of Technology, Hepsiburada"],
       details: ["Ana Salon"],
     },
     {
-      activity: "Konuşma 4",
+      activity: "Ara",
+      time: "11:30 - 11:45",
+      title: ["Ara"],
+      details: ["Ana Salon"],
+    },
+    {
+      activity: "Building Data Platforms from Scratch",
       time: "11:45 - 12:15",
-      title: ["Konuşma 4"],
+      title: ["Halil İbrahim Yıldırım"],
+      subtitle: ["Head of Data, Data & AI Leader, ex: TOM, Getir"],
       details: ["Ana Salon"],
     },
     {
@@ -70,33 +92,49 @@ export default function Agenda() {
       details: ["Ana Salon"],
     },
     {
-      activity: "Konuşma 5",
+      activity: "KonuşmaAI Agent Development 5",
       time: "12:55 - 13:25",
-      title: ["Konuşma 5"],
+      title: ["Emre Savcı"],
+      subtitle: ["Tech Lead / Staff Engineer, Trendyol Group"],
       details: ["Ana Salon"],
     },
     {
-      activity: "Konuşma 6",
+      activity: "Ara",
+      time: "13:25 - 13:40",
+      title: ["Ara"],
+      details: ["Ana Salon"],
+    },
+    {
+      activity: "Being Developer at AI Era",
       time: "13:40 - 14:10",
-      title: ["Konuşma 6"],
+      title: ["Semih Kışlar"],
+      subtitle: ["Tech Culture & AI Enablement Manager, Teknasyon"],
       details: ["Ana Salon"],
     },
     {
-      activity: "Konuşma 7",
+      activity: "Ara",
+      time: "14:10 - 14:25",
+      title: ["Ara"],
+      details: ["Ana Salon"],
+    },
+    {
+      activity: "The Courage to git push --force on a Friday: The Art of Writing Non-Fragile Code",
       time: "14:25 - 14:55",
-      title: ["Konuşma 7"],
+      title: ["Evren Tan"],
+      subtitle: ["Senior Software Development Manager, Sahibinden"],
       details: ["Ana Salon"],
     },
     {
-      activity: "Konuşma 8",
+      activity: "Ara",
+      time: "14:55 - 15:10",
+      title: ["Ara"],
+      details: ["Ana Salon"],
+    },
+    {
+      activity: "Create, Swap, Share: Real-Time AI Features with Flutter",
       time: "15:10 - 15:40",
-      title: ["Konuşma 8"],
-      details: ["Ana Salon"],
-    },
-    {
-      activity: "Konuşma 9",
-      time: "15:55 - 16:25",
-      title: ["Konuşma 9"],
+      title: ["Gizem Malçok"],
+      subtitle: ["Founder, Senior Flutter Developer, Freesia AI"],
       details: ["Ana Salon"],
     },
   ];
@@ -153,6 +191,11 @@ export default function Agenda() {
                                 {titles}
                               </p>
                             ))}
+                            {item.subtitle && (
+                              <p className="text-sm text-gray-500 mt-[1px] border-b border-black pb-1">
+                                {item.subtitle}
+                              </p>
+                            )}
                           </div>
                         )}
                         {item.details && (
