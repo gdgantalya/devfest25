@@ -92,7 +92,7 @@ export default function Agenda() {
       details: ["Ana Salon"],
     },
     {
-      activity: "KonuşmaAI Agent Development 5",
+      activity: "AI Agent Development",
       time: "12:55 - 13:25",
       title: ["Emre Savcı"],
       subtitle: ["Tech Lead / Staff Engineer, Trendyol Group"],
@@ -175,7 +175,8 @@ export default function Agenda() {
                     style={{ backgroundColor: backgroundColors[index] }}
                   >
                     <AccordionTrigger className={Styles.accordionTrigger}>
-                      {item.time}: {item.activity}
+                      <span className="mr-4">{item.time} :</span>
+                      <span>{item.activity}</span>
                     </AccordionTrigger>
                     <AccordionContent
                       className={Styles.accordionContentContainer}
