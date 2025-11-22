@@ -11,6 +11,7 @@ export const SpeakersList = [
     name: "Rümeysa Kara",
     title: "Data Scientist, Google Developer Expert for AI/ML - Yepaş",
     src: photo3,
+    linkedin: "https://www.linkedin.com/in/rumeysakara/",
     x: "@rumeysakara",
   },
   {
@@ -24,6 +25,7 @@ export const SpeakersList = [
     name: "Alper Hankendi",
     title: "Head of Technology - Hepsiburada",
     src: photo1,
+    linkedin: "https://www.linkedin.com/in/alperhankendi/",
     x: "@alperhankendi",
   },
   {
