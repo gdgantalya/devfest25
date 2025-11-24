@@ -11,6 +11,12 @@ import youthall from "../assets/sponsors/logo7.png";
 import uzmanBlgtekno from "../assets/sponsors/logo8.jpeg";
 import epam from "../assets/sponsors/logo9.jpeg";
 import bgaBlsm from "../assets/sponsors/logo10.jpeg";
+import log from "../assets/sponsors/logo11.png";
+import Dernek from "../assets/sponsors/logo12.png";
+import ogrkar from "../assets/sponsors/logo13.png";
+import puisoft from "../assets/sponsors/logo14.png";
+import y from "../assets/sponsors/logo15.png";
+import abnew from "../assets/sponsors/logo16.png";
 import talya from "../assets/sponsors/logo_1.png";
 import rekt from "../assets/sponsors/logo_2.png";
 import tornet from "../assets/sponsors/logo_3.jpeg";
@@ -19,7 +25,9 @@ import gez from "../assets/sponsors/logo_5.jpg";
 import gam from "../assets/sponsors/logo_6.jpeg";
 import bnbn from "../assets/sponsors/logo_7.png";
 import pacadem from "../assets/sponsors/logo_8.png";
-import log from "../assets/sponsors/logo11.png";
+import bt from "../assets/sponsors/logo_9.png";
+import abu from "../assets/sponsors/logo_10.png";
+
 import { Button } from "../module/components/ui/button";
 import { cn } from "../module/lib/utils";
 
@@ -88,7 +96,7 @@ const OurSponsors = () => {
             />
             <SponsorImage
               imageSrc={uzmanBlgtekno}
-              link="https://www.uzmanbt.com/"
+              link="https://uzmanbilgiteknolojileri.com/"
               alt="uzman bilşim teknolojileri"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
@@ -99,9 +107,21 @@ const OurSponsors = () => {
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
+              imageSrc={Dernek}
+              alt="Türkiye Bilişim Derneği"
+              link="https://www.tbd.org.tr/"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
               imageSrc={BlsmProfesyoneller}
               alt="bilisim profesonelleri"
               link="https://bilisimprofesyonelleri.com/"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={puisoft}
+              alt="pui soft"
+              link="https://www.puisoft.com.tr/tr"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
@@ -120,6 +140,18 @@ const OurSponsors = () => {
               imageSrc={workc}
               link="https://workc.co/"
               alt="OneApp"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={ogrkar}
+              alt="öğrenci kariyer"
+              link="https://ogrencikariyeri.com/"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={y}
+              alt="3y"
+              link="https://www.instagram.com/akdenizyyy/"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
@@ -202,6 +234,11 @@ const OurSponsors = () => {
                 alt="gez"
                 link="https://gezmobility.com/"
                 divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+              /> <SponsorImage
+                imageSrc={abnew}
+                alt="Abitnew digital agency"
+                link="https://abitnew.co/"
+                divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
               />
               <SponsorImage
                 imageSrc={talya}
@@ -225,6 +262,18 @@ const OurSponsors = () => {
                 imageSrc={dceros}
                 alt="diceros"
                 link="https://diceroscraft.com/"
+                divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+              />
+              <SponsorImage
+                imageSrc={abu}
+                link="https://www.instagram.com/abubkft/"
+                alt="ABU BKFT"
+                divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+              />
+              <SponsorImage
+                imageSrc={bt}
+                link="https://www.instagram.com/btakdenizuni/"
+                alt="Bilgisayar Topluluğu"
                 divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
               />
               <SponsorImage
