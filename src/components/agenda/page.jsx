@@ -137,6 +137,32 @@ export default function Agenda() {
       subtitle: ["Founder, Senior Flutter Developer, Freesia AI"],
       details: ["Ana Salon"],
     },
+    {
+      activity: "Ara",
+      time: "15:40 - 15:55",
+      title: ["Ara"],
+      details: ["Ana Salon"],
+    },
+    {
+      activity: "AI Won’t Take Your Job, Just Your Keyboard and Turn Mess Into AI-Automated Chaos",
+      time: "15:55 - 16:25",
+      title: ["Cem Çite"],
+      subtitle: ["Cloud-Native AI Systems Senior Architect, Epam Systems"],
+      details: ["Ana Salon"],
+    },
+    {
+      activity: "Ara",
+      time: "16:25 - 16:40",
+      title: ["Ara"],
+      details: ["Ana Salon"],
+    },
+    {
+      activity: "From Generative AI to Productionizing AI",
+      time: "16:40 - 17:10",
+      title: ["Adem Kaya"],
+      subtitle: ["Senior Data Scientist, Epam Systems"],
+      details: ["Ana Salon"],
+    },
   ];
 
   return (

@@ -1,5 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import google from "../assets/sponsors/google.webp";
+import googledev from "../assets/sponsors/google.png";
 import club from "../assets/sponsors/100sclub.png";
 import BlsmProfesyoneller from "../assets/sponsors/logo1.png";
 import dceros from "../assets/sponsors/logo2.png";
@@ -17,6 +18,9 @@ import ogrkar from "../assets/sponsors/logo13.png";
 import puisoft from "../assets/sponsors/logo14.png";
 import y from "../assets/sponsors/logo15.png";
 import abnew from "../assets/sponsors/logo16.png";
+import buldermare from "../assets/sponsors/logo17.png";
+import redbull from "../assets/sponsors/logo18.png";
+import dodo from "../assets/sponsors/logo19.webp";
 import talya from "../assets/sponsors/logo_1.png";
 import rekt from "../assets/sponsors/logo_2.png";
 import tornet from "../assets/sponsors/logo_3.jpeg";
@@ -71,51 +75,15 @@ const OurSponsors = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-24 overflow-hidden">
             <SponsorImage
+              imageSrc={googledev}
+              link="https://developers.google.com/?hl=tr"
+              alt="google for developers"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
               imageSrc={epam}
               link="https://www.epam.com/"
               alt="epam"
-              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
-            />
-            <SponsorImage
-              imageSrc={techcareer}
-              alt="techcareer"
-              link="https://www.techcareer.net/"
-              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
-            />
-            <SponsorImage
-              imageSrc={youthall}
-              link="https://www.youthall.com/en/"
-              alt="youthall"
-              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
-            />
-            <SponsorImage
-              imageSrc={raghubs}
-              alt="ragHubs"
-              link="https://app.raghubs.com/?lang=tr"
-              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
-            />
-            <SponsorImage
-              imageSrc={uzmanBlgtekno}
-              link="https://uzmanbilgiteknolojileri.com/"
-              alt="uzman bilşim teknolojileri"
-              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
-            />
-            <SponsorImage
-              imageSrc={log}
-              link="https://logelektronik.com/"
-              alt="log elektronik"
-              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
-            />
-            <SponsorImage
-              imageSrc={Dernek}
-              alt="Türkiye Bilişim Derneği"
-              link="https://www.tbd.org.tr/"
-              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
-            />
-            <SponsorImage
-              imageSrc={BlsmProfesyoneller}
-              alt="bilisim profesonelleri"
-              link="https://bilisimprofesyonelleri.com/"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
@@ -131,27 +99,51 @@ const OurSponsors = () => {
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
+              imageSrc={uzmanBlgtekno}
+              link="https://uzmanbilgiteknolojileri.com/"
+              alt="uzman bilşim teknolojileri"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={log}
+              link="https://logelektronik.com/"
+              alt="log elektronik"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={raghubs}
+              alt="ragHubs"
+              link="https://app.raghubs.com/?lang=tr"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={buldermare}
+              link="https://buildermare.com/"
+              alt="builderMare"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={abnew}
+              alt="Abitnew digital agency"
+              link="https://abitnew.co/"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={club}
+              alt="100sclub"
+              link="https://100sclub.com/en"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={BlsmProfesyoneller}
+              alt="bilisim profesonelleri"
+              link="https://bilisimprofesyonelleri.com/"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
               imageSrc={dceros}
               alt="Dıceros"
               link="https://diceroscraft.com/"
-              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
-            />
-            <SponsorImage
-              imageSrc={workc}
-              link="https://workc.co/"
-              alt="OneApp"
-              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
-            />
-            <SponsorImage
-              imageSrc={ogrkar}
-              alt="öğrenci kariyer"
-              link="https://ogrencikariyeri.com/"
-              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
-            />
-            <SponsorImage
-              imageSrc={y}
-              alt="3y"
-              link="https://www.instagram.com/akdenizyyy/"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
@@ -162,15 +154,51 @@ const OurSponsors = () => {
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
-              imageSrc={club}
-              alt="100sclub"
-              link="https://100sclub.com/en"
+              imageSrc={techcareer}
+              alt="techcareer"
+              link="https://www.techcareer.net/"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
-              imageSrc={google}
-              link="https://gdg.community.dev/"
-              alt="google"
+              imageSrc={workc}
+              link="https://workc.co/"
+              alt="OneApp"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={youthall}
+              link="https://www.youthall.com/en/"
+              alt="youthall"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={ogrkar}
+              alt="öğrenci kariyer"
+              link="https://ogrencikariyeri.com/"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={redbull}
+              alt="red bull"
+              link="https://www.redbull.com/tr-tr"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={dodo}
+              alt="dodo pizza"
+              link="https://dodopizza.com.tr/antalya"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={Dernek}
+              alt="Türkiye Bilişim Derneği"
+              link="https://www.tbd.org.tr/"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
+              imageSrc={y}
+              alt="3y"
+              link="https://www.instagram.com/akdenizyyy/"
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
           </div>
@@ -278,7 +306,7 @@ const OurSponsors = () => {
               />
               <SponsorImage
                 imageSrc={google}
-                link="https://gdg.community.dev/"
+                link="https://www.google.com/"
                 alt="google"
                 divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
               />
