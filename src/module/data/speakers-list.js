@@ -6,6 +6,8 @@ import photo5 from "../../assets/speakers/photo_5.jpg";
 import photo6 from "../../assets/speakers/photo_6.jpg";
 import photo7 from "../../assets/speakers/photo_7.jpg";
 import photo8 from "../../assets/speakers/photo_8.jpg";
+import photo9 from "../../assets/speakers/photo_9.jpeg";
+import photo10 from "../../assets/speakers/photo_10.jpg";
 export const SpeakersList = [
   {
     name: "Rümeysa Kara",
@@ -62,5 +64,19 @@ export const SpeakersList = [
     src: photo8,
     linkedin: "https://www.linkedin.com/in/gizemmalcok",
     x: "@gizemmalcok",
+  },
+  {
+    name: "Cem Çite",
+    title: "Cloud-Native AI Systems Senior Architect, Epam Systems",
+    src: photo10,
+    linkedin: "https://www.linkedin.com/in/cemcite/",
+    x: "@cemcite",
+  },
+  {
+    name: "Adem Kaya",
+    title: "Senior Data Scientist, Epam Systems",
+    src: photo9,
+    linkedin: "https://www.linkedin.com/in/adem-kaya-6240771b4/",
+    x: "@ademkaya",
   },
 ];

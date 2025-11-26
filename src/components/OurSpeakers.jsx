@@ -6,7 +6,7 @@ import SpeakerCard from "../module/cards/SpeakerCard";
 import IconsArt from "./IconsArt";
 
 const OurSpeakers = () => {
-  const Speakers = SpeakersList.slice(0, 8);
+  const Speakers = SpeakersList.slice(0, 12);
   return (
     <>
       <div className="bg-[#fcfcfc] w-full">
