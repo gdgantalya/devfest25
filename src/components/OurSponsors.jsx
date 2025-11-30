@@ -111,6 +111,12 @@ const OurSponsors = () => {
               divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
             />
             <SponsorImage
+              imageSrc={pacadem}
+              alt="pikel akademi"
+              link="https://pikselakademi.com.tr/"
+              divClassName="bg-white p-5 md:p-10 border-[1px] border-[#f0f0f0] rounded-2xl h-[100px] md:h-[200px]"
+            />
+            <SponsorImage
               imageSrc={raghubs}
               alt="ragHubs"
               link="https://app.raghubs.com/?lang=tr"

@@ -200,9 +200,20 @@ export default function Agenda() {
                     className={Styles.accordionItem}
                     style={{ backgroundColor: backgroundColors[index] }}
                   >
-                    <AccordionTrigger className={Styles.accordionTrigger}>
-                      <span className="mr-4">{item.time} :</span>
-                      <span>{item.activity}</span>
+                    <AccordionTrigger className={`${Styles.accordionTrigger} !py-4`}>
+                      <div className="flex flex-col text-left w-full">
+                        <div className="flex gap-2 items-center text-[16px] font-semibold">
+                          <span>{item.time}</span>
+                          <span>:</span>
+                          <span>{item.activity}</span>
+                        </div>
+
+                        {item.title && item.title[0] !== "Ara" && (
+                          <span className="text-[15px] text-gray-700 font-medium mt-2">
+                            {item.title}
+                          </span>
+                        )}
+                      </div>
                     </AccordionTrigger>
                     <AccordionContent
                       className={Styles.accordionContentContainer}
