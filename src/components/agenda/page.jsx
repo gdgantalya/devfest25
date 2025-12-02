@@ -33,10 +33,16 @@ export default function Agenda() {
   }, []);
 
   const agendaItems = [
+      {
+      activity: "Kapı Açılışı",
+      time: "08:30",
+      title: ["Kapı Açılışı"],
+      details: ["Ana Salon"],
+    },
     {
-      activity: "Açılış",
+      activity: "Açılış Konuşması",
       time: "09:00 - 09:30",
-      title: ["Açılış"],
+      title: ["Açılış Konuşması"],
       details: ["Ana Salon"],
     },
     {
